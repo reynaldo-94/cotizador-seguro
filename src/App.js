@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Button from './components/Button';
 // import Input from './components/Input';
 // import Select from './components/Select';
 import Checkbox from "./components/Checkbox";
@@ -32,11 +33,12 @@ export default function App() {
           console.log('id:', id)
         }}
       /> */}
-      <Checkbox 
+      {/* <Checkbox 
         checked={checked}
         onChange={(val) => setChecked(val)}
         label={'Acepto'}
-      />
+      /> */}
+      <Button onClick={() => {console.log("You Clicked on Me!")}}>COTIZALO</Button>
     </div>
   );
 }
