@@ -1,7 +1,10 @@
+import React, { useState } from 'react'
 // import Input from './components/Input';
-import Select from './components/Select';
+// import Select from './components/Select';
+import Checkbox from "./components/Checkbox";
 
 export default function App() {
+  const [checked, setChecked] = useState(false)
   return (
     <div>
       {/* <Input
@@ -10,7 +13,7 @@ export default function App() {
         onChange={(value) => console.log(value)}
         placeholder='Ingrese el texto'
       /> */}
-      <Select 
+      {/* <Select 
         initialOptions={[
           {
             id: 1,
@@ -28,6 +31,11 @@ export default function App() {
         selectionChange={(id) => {
           console.log('id:', id)
         }}
+      /> */}
+      <Checkbox 
+        checked={checked}
+        onChange={(val) => setChecked(val)}
+        label={'Acepto'}
       />
     </div>
   );
