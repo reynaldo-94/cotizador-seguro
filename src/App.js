@@ -3,6 +3,7 @@ import Button from './components/Button';
 // import Input from './components/Input';
 // import Select from './components/Select';
 import Checkbox from "./components/Checkbox";
+import { FaPhoneAlt } from 'react-icons/fa'
 
 export default function App() {
   const [checked, setChecked] = useState(false)
@@ -39,6 +40,7 @@ export default function App() {
         label={'Acepto'}
       /> */}
       <Button onClick={() => {console.log("You Clicked on Me!")}}>COTIZALO</Button>
+      <FaPhoneAlt color="cornflowerblue" /> Check out my phone
     </div>
   );
 }
