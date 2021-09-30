@@ -4,6 +4,9 @@ import Button from './components/Button';
 // import Select from './components/Select';
 import Checkbox from "./components/Checkbox";
 import { FaPhoneAlt } from 'react-icons/fa'
+import Logo from './components/Header/Logo';
+import Information from './components/Header/Information';
+import Login from './components/Login';
 
 export default function App() {
   const [checked, setChecked] = useState(false)
@@ -39,8 +42,11 @@ export default function App() {
         onChange={(val) => setChecked(val)}
         label={'Acepto'}
       /> */}
-      <Button onClick={() => {console.log("You Clicked on Me!")}}>COTIZALO</Button>
-      <FaPhoneAlt color="cornflowerblue" /> Check out my phone
+      {/* <Button onClick={() => {console.log("You Clicked on Me!")}}>COTIZALO</Button>
+      <FaPhoneAlt color="cornflowerblue" /> Check out my phone */}
+      {/* <Logo />
+      <Information /> */}
+      <Login />
     </div>
   );
 }

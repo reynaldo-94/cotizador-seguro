@@ -1,0 +1,16 @@
+.information {
+  display: flex; 
+  gap: 25px;
+  justify-content: flex-end; 
+  padding-right: 80px;
+}
+
+.information__span {
+  color: #676f8f;
+}
+
+.information__number {
+  display: flex; 
+  gap: 5px;
+  color: #6f7dff;
+}

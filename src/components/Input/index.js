@@ -28,7 +28,7 @@ export default function Input ({
   return (
     <div>
       <input
-        className='Input'
+        className='input'
         type={type}
         value={value}
         placeholder={placeholder}

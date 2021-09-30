@@ -8,10 +8,10 @@ export default function Checkbox({
 }) { 
   return (
     <div className="checkbox">
-      <div className="border" onClick={() => onChange(!checked)}>
-        <div className={`indicator ${checked ? "checked" : ""}`} />
+      <div className="checkbox__border" onClick={() => onChange(!checked)}>
+        <div className={`checkbox__indicator ${checked ? "checkbox__checked" : ""}`} />
       </div>
-      <div className="label">{label}</div>
+      <div className="checkbox__label">{label}</div>
     </div>
       
   )

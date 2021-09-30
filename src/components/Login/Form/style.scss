@@ -1,0 +1,29 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+}
+
+.form {
+  display: flex; 
+  flex-direction: column;
+  gap: 25px;
+  margin: 0px auto;
+  width: 288px;
+}
+
+.form__title {
+  color: #494F66;
+  margin: 0px;
+}
+
+.form__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form_block {
+  display: flex;
+}
