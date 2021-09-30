@@ -1,3 +1,5 @@
+@import '../../../styles/constants.scss';
+
 .block {
   display: flex;
   flex-direction: column;
@@ -14,7 +16,7 @@
 }
 
 .form__title {
-  color: #494F66;
+  color: $formTitleColor;
 }
 
 .form__body {

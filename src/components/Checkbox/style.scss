@@ -1,3 +1,5 @@
+@import '../../styles/constants.scss';
+
 .checkbox {
   display: flex;
   align-items: center;
@@ -6,7 +8,7 @@
 
 .checkbox__border {
   position: relative;
-  border: 2px solid #676F8F;
+  border: 2px solid $grayColor;
   border-radius: 4px;
   margin-right: 8px;
   width: 30px;
@@ -16,7 +18,7 @@
 .checkbox__indicator {
   position: absolute;
   z-index: 1;
-  background-color: #43B748;
+  background-color: $greenColor;
   border-radius: 4px;
   width: 100%;
   height: 20px;
@@ -31,7 +33,7 @@
 .checkbox__label {
   position: relative;
   top: 2px;
-  color: #676F8F;
+  color: $grayColor;
   font-size: 12px;
   line-height: 20px;
 }

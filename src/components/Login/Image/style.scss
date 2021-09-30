@@ -1,3 +1,5 @@
+@import '../../../styles/constants.scss';
+
 .blockImage {
   display: flex;
   flex-direction: column;
@@ -31,11 +33,11 @@
 }
 
 .image__title--color {
-  color: #ef3340;
+  color: $redColor;
 }
 
 .image__description {
-  color: #676f8f;
+  color: $grayColor;
   font-size: 14px;
   margin: 0px; 
 }

@@ -1,3 +1,5 @@
+@import '../../styles/constants.scss';
+
 .btn {
   border-radius: 8px;
   cursor: pointer;
@@ -12,7 +14,7 @@
 }
 
 .btn--primary--solid {
-  background-color: #EF3340;
+  background-color: $redColor;
   color: #fff;
   border: none;
 }
