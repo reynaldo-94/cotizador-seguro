@@ -1,0 +1,41 @@
+.blockImage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 100px;
+  position: absolute;
+  top: 30px;
+  width: 320px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagen__span {
+  color: #494f66;
+  font-size: 12px;
+}
+
+.image__block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.image__title {
+  font-size: 36px;
+  line-height: 48px;
+  margin: 0px;
+}
+
+.image__title--color {
+  color: #ef3340;
+}
+
+.image__description {
+  color: #676f8f;
+  font-size: 14px;
+  margin: 0px; 
+}
