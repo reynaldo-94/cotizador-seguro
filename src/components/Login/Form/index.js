@@ -4,7 +4,7 @@ import Select from '../../Select'
 import Input from '../../Input'
 import Checkbox from '../../Checkbox'
 import Information from '../../Header/Information'
-import './style.scss'
+import styles from './style.module.scss'
 
 const optionsDocuments = [
   {
@@ -20,12 +20,12 @@ const optionsDocuments = [
 export default function Form() {
   const [checked, setChecked] = useState(false)
   return (
-    <div className='block'>
+    <div className={styles.block}>
       <Information />
-      <div className='form'>
-        <h1 className='form__title'>Déjanos tus datos</h1>
-        <div className='form__body'>
-          <div className='form_block'>
+      <div className={styles.form}>
+        <h1 className={styles.form__title}>Déjanos tus datos</h1>
+        <div className={styles.form__body}>
+          <div className={styles.form__block}>
             <Select initialOptions={optionsDocuments} />
             <Input placeholder={'Nro. de doc'} />
           </div>

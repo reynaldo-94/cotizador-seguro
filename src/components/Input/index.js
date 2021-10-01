@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './style.scss'
+import styles from './style.module.scss'
 
 export default function Input ({
   type = 'text',
@@ -28,7 +28,7 @@ export default function Input ({
   return (
     <div>
       <input
-        className='input'
+        className={styles.input}
         type={type}
         value={value}
         placeholder={placeholder}

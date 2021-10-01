@@ -1,5 +1,5 @@
 import React from 'react'
-import "./style.scss"
+import styles from './style.module.scss'
 
 const STYLES = [
   "btn--primary--solid",
@@ -22,15 +22,15 @@ export default function Button ({
   buttonSize
 }) {
 
-  const checkButtonStyle = STYLES.includes(buttonStyle) 
-  ? buttonStyle 
-  : STYLES[0]
+  // const checkButtonStyle = STYLES.includes(buttonStyle) 
+  // ? `${styles.buttonStyle}`
+  // : `${styles.STYLES[0]}`
 
-  const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
-
+  // const checkButtonSize = SIZES.includes(buttonSize) ? styles.buttonSize : styles.SIZES[0]
   return (
     <button 
-      className={`btn ${checkButtonStyle} ${checkButtonSize}`} 
+      // className={`${styles.btn} ${checkButtonStyle} ${checkButtonSize}`} 
+      className={`${styles.button} ${styles.button__primary} ${styles.button__medium}`} 
       onClick={onClick} 
       type={type}
     >

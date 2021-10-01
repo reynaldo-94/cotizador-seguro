@@ -1,6 +1,6 @@
 @import '../../styles/constants.scss';
 
-.btn {
+.button {
   border-radius: 8px;
   cursor: pointer;
   font-size: 14px;
@@ -9,22 +9,22 @@
   height: 56px;
 }
 
-.btn:hover {
+.button:hover {
   transform: translateY(-3px);
 }
 
-.btn--primary--solid {
+.button__primary {
   background-color: $redColor;
   color: #fff;
   border: none;
 }
 
 /* Button Size */
-.btn--medium {
+.button__medium {
   padding: 10px 20px;
   font-size: 14px;
 }
 
-.btn--small {
+.button__small {
   font-size: 12px;
 }

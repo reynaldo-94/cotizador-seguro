@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.scss'
+import styles from './style.module.scss'
 
 export default function Select({
   initialOptions = [],
@@ -7,7 +7,7 @@ export default function Select({
 }) {
   return (
     <select
-      className='select'
+      className={styles.select}
       onChange={(event) => selectionChange(event.target.value)}
     >
       {
