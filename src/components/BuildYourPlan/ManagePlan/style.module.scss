@@ -1,0 +1,65 @@
+@import '../../../styles/constants.scss';
+
+.managePlan {
+  display: flex; 
+  flex-direction: column;
+  gap: 20px;
+}
+
+.managePlan__breadcrumb {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+
+.managePlan__header {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}
+
+.managePlan__image {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.managePlan__blockColumn {
+  display: flex; 
+  flex-direction: column;
+  gap: 10px
+}
+
+.managePlan__subTitle {
+  color: $gray2Color;
+}
+
+.managePlan__title {
+  color: $gray1TitlesColor;
+}
+
+.managePlan__paragraph {
+  color: $gray2Paragraph;
+}
+
+.managePlan__sumAssured {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+
+  .information {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .information__body {
+      display: flex;
+      gap: 10px;
+    }
+
+    .information__block {
+      display: flex;
+      gap: 3px;
+    }
+  }
+}

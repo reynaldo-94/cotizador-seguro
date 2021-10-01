@@ -1,7 +1,5 @@
 import React from 'react'
-import Circle from '../Circle'
 import Header from '../Header'
-import { FiChevronLeft } from 'react-icons/fi'
 import MenuBar from './MenuBar'
 import styles from './style.module.scss'
 import ManagePlan from './ManagePlan'
