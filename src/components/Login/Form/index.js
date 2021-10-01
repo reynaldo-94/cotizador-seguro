@@ -21,7 +21,7 @@ export default function Form() {
   const [checked, setChecked] = useState(false)
   return (
     <div className={styles.block}>
-      <Information />
+      <Information style={{ paddingRight: 80, paddingTop: 25 }} />
       <div className={styles.form}>
         <h1 className={styles.form__title}>Déjanos tus datos</h1>
         <div className={styles.form__body}>
