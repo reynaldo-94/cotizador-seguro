@@ -1,0 +1,24 @@
+@import '../../styles/constants.scss';
+
+.purchaseConfirmation {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
+
+.purchaseConfirmation__body {
+  display: flex;
+  gap: 10px;
+}
+
+.purchaseConfirmation__form {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+
+  .form__title {
+    color: $gray1TitlesColor
+  }
+
+  .form__titleRed {
+    color: $redColor;
+  }
+}
